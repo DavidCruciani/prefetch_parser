@@ -49,7 +49,7 @@ def prefetch2json(filepath: str) -> dict:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--prefetchfile", type=Path, help="Windows Prefetch file.")
-    parser.add_argument("-o", "--jsonfile", type=Path, help="Output json file path. '-' will print on terminal.")
+    parser.add_argument("-o", "--jsonfile", type=Path, help="Output json file path. '-' will print command output on terminal.")
     args = parser.parse_args()
 
     # Convert prefetch to json file.
