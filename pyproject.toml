@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "prefetch_parser"
+version = "1.0.0"
+description = ""
+authors = ["David Cruciani <david.cruciani@circl.lu>"]
+license = "BSD-2-Clause"
+readme = "README.md"
+repository = "https://github.com/DavidCruciani/prefetch_parser"
+keywords = [
+	"prefetch"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+libscca-python = "^20221027"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
